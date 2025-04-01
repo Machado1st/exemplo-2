@@ -29,3 +29,20 @@ console.log(typeof exemplo6)
 
 
 //conversoes
+//float=> inteiro
+
+let numfloat =123.456;
+console.log(parseInt(numfloat))
+
+
+//string=> float
+let numstring ="547.987";
+console.log(parseFloat(numstring))
+//float=> dtring
+let numfloat1 =554.665
+console.log(numfloat1.toString())
+
+
+let numInt=100;
+console.log(numInt.toString())
+
