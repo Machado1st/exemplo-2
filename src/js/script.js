@@ -81,3 +81,72 @@ console.log(num3<num4&& num4<50)
 console.log(num3>num4||num4>num3)
 console.log(num3==num3||num4<=num3)
 
+let num7 =20;
+let num5 =30;
+console.log(num7<num5)
+console.log(num7>num5)
+console.log(num7<num5&& num5<50)
+console.log(num7>num5||num7>num5)
+console.log(num7=num5||num5<=num7)
+
+
+// operadores de comparaçao
+
+let num10 =25;
+let num9 =35;
+console.log(num9==num10)// compara
+console.log(num9=== num10) // compara e verifica o tipo da variavel
+console.log(num9!= num10)// diferente
+
+// estrutura condicional
+
+//IF
+
+let valor1 = 100
+if (valor1 == 100){
+    console.log("é verdadeiro")
+}
+
+if(true){
+console.log("é verdadeiro")
+}
+
+
+// if else
+let valor2= 100
+if(valor2 == 100){
+    console.log("valor correto")
+
+}else{
+    console.log("valor errado")
+}
+if(valor2 == 101){
+    console.log("valor correto")
+
+}else{
+    console.log("valor errado")
+}
+
+//if/else encadeado ou aninhado 
+
+let idade2 = 13
+let idade3 =14
+
+if(idade3<14){
+    console.log("Não pode entrar na balada")
+
+}
+else if(idade3>=14 && idade3<18){
+    console.log("Pode entrar na balada")
+
+}
+else{
+console.log("Não pode entrar na balada")
+}
+
+// condiçao ternaria
+
+let valor99 = 300;
+
+let resultado = valor99 == 300 ? "certo" : "errado";
+console.log(resultado)
