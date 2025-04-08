@@ -150,3 +150,52 @@ let valor99 = 300;
 
 let resultado = valor99 == 300 ? "certo" : "errado";
 console.log(resultado)
+
+
+// switch case
+let time ="corinthians";
+let time2 ="são paulo";
+let time3 ="palmeiras";
+let time4 = "santos";
+
+switch(time){
+    case "corinthians":
+        console.log("melhor do mundo!")
+        break;
+    case "são paulo":
+        console.log("timinho!")
+        break;
+    case "palmeiras":
+        console.log("não tem mundial")
+        break;
+        default:
+            console.log("nenhuma das opçoes")
+
+}
+
+// estrutura de laço de repetiçao
+
+
+for(let i=0;i<=10;i++){
+    console.log("O valor de i é :",i)
+}
+
+// while
+let w=0
+
+while(w<=10){
+    console.log("o valor de w e",w)
+    w++;
+
+    // do while
+
+    let z=10;
+    do{
+        console.log("do while é",z)
+        z++;
+
+    }while(z<=100)
+
+}
+
+
