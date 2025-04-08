@@ -198,4 +198,17 @@ while(w<=10){
 
 }
 
+// funçoes
 
+function saudacao(nome){
+    // console.log("Seja bem vindo", nome) // tipo de concatenaçao com ,
+    console.log(`seja bem vindo ${nome}`) // tipo de concatenaçao com ` e $ e {}
+}
+saudacao("fiap")
+
+function semaforo(){
+    let sinal ="amarelo"
+    console.log(`O semaforo está ${sinal}`)
+
+}
+semaforo();
